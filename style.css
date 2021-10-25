@@ -505,6 +505,7 @@ footer a, .projects-section a, .contact-section, .projects-header {
         padding: 0 50px;
     }
 }
+
 @media (max-width: 947px){
     .menu-btn{
         display: block;
