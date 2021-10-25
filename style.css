@@ -585,6 +585,9 @@ footer a, .projects-section a, .contact-section, .projects-header {
         position: relative;
         margin: 0 auto;
     }
+    .text .courses .title {        
+        padding-bottom: 50px;        
+    }    
 }
 
 @media (max-width: 690px) {
@@ -607,7 +610,8 @@ footer a, .projects-section a, .contact-section, .projects-header {
     .contact-details {        
         font-size: 20px;
         margin-right: 3px;
-    }    
+    }
+      
 }
 
 @media (max-width: 500px) {
