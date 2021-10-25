@@ -491,7 +491,6 @@ footer a, .projects-section a, .contact-section, .projects-header {
     margin: 0 auto;
 }
 
-
 /* responsive media query start */
 @media (max-width: 1104px) {
     .about .about-content .left img{
