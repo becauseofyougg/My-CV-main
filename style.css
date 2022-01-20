@@ -395,7 +395,7 @@ section{
 .project {
     background: var(--main-gray);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    border-radius: 2px;
+    border-radius: 20px;
 }
 .code {
     color: var(--main-gray);
@@ -426,7 +426,8 @@ section{
 .btn-show-all {
     font-size: 2rem;
     background: var(--main-gray);
-    transition: background 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    border-radius: 10px;
 }
 
 .btn-show-all:hover {
