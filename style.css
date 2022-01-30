@@ -5,6 +5,7 @@
     --main-red: #be3144;
     --main-blue: #52a9df;
     --main-gray: #303841;
+    --aquamarine: #7FFFD4;
 }
 
 *{
@@ -209,9 +210,15 @@ section{
     background: none;
 }
 
-/* about section styling */
+/* aboutsection styling */
+.about {
+    background-color: var(--aquamarine);
+    border-radius: 50px;
+    margin: 10rem 2rem;
+}
 .about .title::after{
     content: "who I am";
+    background-color: var(--aquamarine);
 }
 .about .about-content .left{
     width: 45%;
@@ -232,11 +239,13 @@ section{
 }
 .about .about-content .right .text span{
     color: crimson;
+    
 }
 .about .about-content .right p{
     text-align: justify;
     font-size: 24px;
     margin-bottom: 20px;
+    
 }
 .about .about-content .right h3{
     font-size: 30px;
@@ -244,7 +253,7 @@ section{
 .about .about-content .right a{
     display: inline-block;
     background: crimson;
-    color: #fff;
+    color: var(--aquamarine);
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
