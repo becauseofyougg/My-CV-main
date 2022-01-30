@@ -278,6 +278,7 @@ section{
     width: calc(50% - 30px);
 }
 .skills .skills-content .left .text{
+    display: block;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -345,7 +346,7 @@ section{
     top: 0;
     background: crimson;
 }
-.skills-content .right .html::before{
+/* .skills-content .right .html::before{
     width: 70%;
 }
 .skills-content .right .css::before{
@@ -353,11 +354,41 @@ section{
 }
 .skills-content .right .js::before{
     width: 30%;
-}
+} */
 
 /* .skills-content .right .english::before{
     width: 90%;
 } */
+.skills .skills-content .right .icons .fab {
+    font-size: 100px;
+    margin-right: 10px;
+}
+.skills .skills-content .right .icons .title::after{
+    content: "I acquired";
+}
+.skills .skills-content .right .icons h4 {
+    margin-top: 30px;
+    font-size: 30px;
+}
+.skills .skills-content .right .icons .fab {
+    font-size: 50px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.skills .skills-content .right .icons .fa-html5, .fa-node {
+    color: rgb(5, 128, 5);
+}
+
+.skills .skills-content .right .icons .fa-css3-alt, .fa-bootstrap, .fa-react {
+    color: rgb(29, 29, 251);
+}
+.skills .skills-content .right .icons .fa-js {
+    color: rgb(230, 230, 20);
+}
+.skills .skills-content .right .icons .fa-sass {
+    color: rgb(243, 189, 198);
+}
 
 
 
@@ -390,6 +421,10 @@ section{
     max-width: 1280px;
     margin: 0 auto;
     margin-bottom: 6rem;
+}
+.project-tile {    
+    height: 320px;
+    border-radius: 20px;
 }
 
 .project {
@@ -586,6 +621,14 @@ footer a, .projects-section a, .contact-section, .projects-header {
         position: relative;
         margin: 0 auto;
     }
+    .skills .skills-content .right .icons h4 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .skills .skills-content .right .icons .fab {
+        font-size: 30px;        
+        margin: 8px 8px 0 0;
+    }
     .text .courses .title {        
         padding-bottom: 50px;        
     }    
@@ -607,6 +650,22 @@ footer a, .projects-section a, .contact-section, .projects-header {
     .about-me {
         display: block;
         height: 150vh;
+    }
+    .skills .skills-content {
+        display: block;
+        height: 150vh;        
+    }
+     .skills .skills-content .column {
+        margin: 0 auto;
+    }
+
+    .skills .skills-content .right .icons h4 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .skills .skills-content .right .icons .fab {
+        font-size: 30px;        
+        margin: 8px 8px 0 0;
     }
     .contact-details {        
         font-size: 20px;
@@ -635,6 +694,14 @@ footer a, .projects-section a, .contact-section, .projects-header {
     }
     .right form .error-box{
        width: 150px;
+    }
+    .skills .skills-content .right .icons h4 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .skills .skills-content .right .icons .fab {
+        font-size: 30px;        
+        margin: 8px 8px 0 0;
     }
     .scroll-up-btn{
         right: 15px;
